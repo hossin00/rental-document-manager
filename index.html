@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="theme-color" content="#dc2626"/>
+  <link rel="manifest" href="/rental-document-manager/manifest.json"/>
+  <link rel="icon" href="/rental-document-manager/favicon.ico"/>
+  <title>Rental Document Manager</title>
+  <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"/>
+  <script type="module" crossorigin src="/rental-document-manager/assets/index-DkrWWKv4.js"></script>
+  <link rel="stylesheet" crossorigin href="/rental-document-manager/assets/index-DQ22NqWg.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/rental-document-manager/sw.js', { scope: '/rental-document-manager/' });
+      });
+    }
+  </script>
+</body>
+</html>
